@@ -34,3 +34,5 @@ In this project an iterative learning controller is realized and tested on a Car
 * get_optimal_trajectory: Script to run the NLMPC and get optimal trajectory. Implementation details in the report.
 
 * nonlinearconstraints: Constraints of cart position and cart velocity due to rail length and cart actuator. Used to run fmincon algorithm.
+
+> For further detail open the [ Project_Report](Report_Project.pdf)
