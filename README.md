@@ -5,7 +5,7 @@ In this project an iterative learning controller is realized and tested on a Car
 <h3>File details:</h3>
 
 
-> MAIN.M : is the main file.
+- [MAIN.M](main.m) : is the main file.
 
 Section 1: there is an INIT.M call to initialize the parameters. 
 1. Section 2: Using get_optimal_trajectory function a NPLMC algotithm is run to find the ideal trajectory. There is the plotting of Ideal trajectory. 
