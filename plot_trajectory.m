@@ -1,0 +1,32 @@
+function plot_trajectory(xHistory ,uHistory, name)
+%%
+
+global Ts Duration;
+
+% Plot the closed-loop response.
+figure('Name',name,'NumberTitle','off')
+subplot(2,3,1)
+plot(0:Ts:Duration,xHistory(1,:))
+xlabel('time (seconds)')
+ylabel('x (meters)')
+title({"",'cart position',""})
+subplot(2,3,2)
+plot(0:Ts:Duration,xHistory(2,:))
+xlabel('time (seconds)')
+ylabel("x' (meters/seconds)")
+title({"",'cart velocity',""})
+subplot(2,3,3)
+plot(0:Ts:Duration,xHistory(3,:))
+xlabel('time (seconds)')
+ylabel('\phi (radians)')
+title({"",'pendulum angle',""})
+subplot(2,3,4)
+plot(0:Ts:Duration,xHistory(4,:))
+xlabel('time (seconds)')
+ylabel("\phi' (radians/seconds)")
+title({"",'pendulum velocity',""})
+subplot(2,3,5)
+plot(0:Ts:Duration,uHistory)
+xlabel('time (seconds)')
+ylabel("u")
+title({"",'input u',""})
