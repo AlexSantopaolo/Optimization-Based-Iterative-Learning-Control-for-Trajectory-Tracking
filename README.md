@@ -1,11 +1,11 @@
-<h1>Optimization-Based Iterative Learning Controlfor Trajectory Tracking</h1>
+<h1>Optimization-Based Iterative Learning Control for Trajectory Tracking</h1>
 <h3>Project description:</h3>
 
 In this project an iterative learning controller is realized and tested on a Cart-Pole system. Starting from a feasible swing-up trajectory, at each trial, the uncertainties over the dynamics parameters of the model are estimated and incorporated in the controller formulation during the next iteration. Simulation implemented in Matlab.
 <h3>File details:</h3>
 
 
-MAIN.M : is the main file.
+*MAIN.M* : is the main file.
 
 Section 1: there is an INIT.M call to initialize the parameters. Section 2: Using get_optimal_trajectory function a NPLMC algotithm is run to find the ideal trajectory. There is the plotting of Ideal trajectory. Section 3: Number of simulation for ILC to converge 4. We set up the real nominal condition that varies at each iteration. First simulation run with optimal input . Computed Lifted representation. Initilization of Kalman filter matrices and cycle with simulation. Run control step using fmicon. Computed each simulation trajectory and plotted of all of them.
 
