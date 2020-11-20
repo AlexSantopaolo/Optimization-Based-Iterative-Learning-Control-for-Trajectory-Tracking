@@ -38,4 +38,4 @@ In this project an iterative learning controller is realized and tested on a Car
 
 > For further detail open the [ Project_Report](Report_Project.pdf)
 
-> [![Watch the video with the results]](https://youtu.be/KscG354lbqI)
+>Watch the [video](https://youtu.be/KscG354lbqI) with the results
