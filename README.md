@@ -5,6 +5,7 @@ Optimization-Based Iterative Learning Controlfor Trajectory Tracking.
 Project description:
 
 In this project an iterative learning controller is realized and tested on a Cart-Pole system. Starting from a feasible swing-up trajectory, at each trial, the uncertainties over the dynamics parameters of the model are estimated and incorporated in the controller formulation during the next iteration. Simulation implemented in Matlab.
+
 File details:
 
 MAIN.M : is the main file.
