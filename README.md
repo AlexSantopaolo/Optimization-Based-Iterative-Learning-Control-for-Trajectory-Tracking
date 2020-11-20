@@ -7,9 +7,9 @@ In this project an iterative learning controller is realized and tested on a Car
 
 - [MAIN.M](main.m) : is the main file.
 
- -Section 1: there is an INIT.M call to initialize the parameters. 
- -Section 2: Using get_optimal_trajectory function a NPLMC algotithm is run to find the ideal trajectory. There is the plotting of Ideal trajectory. 
-  -Section 3: Number of simulation for ILC to converge 4. We set up the real nominal condition that varies at each iteration. First simulation run with optimal input . Computed    Lifted representation. Initilization of Kalman filter matrices and cycle with simulation. Run control step using fmicon. Computed each simulation trajectory and plotted of      all of them.
+ - Section 1: there is an INIT.M call to initialize the parameters. 
+ - Section 2: Using get_optimal_trajectory function a NPLMC algotithm is run to find the ideal trajectory. There is the plotting of Ideal trajectory. 
+  - Section 3: Number of simulation for ILC to converge 4. We set up the real nominal condition that varies at each iteration. First simulation run with optimal input . Computed    Lifted representation. Initilization of Kalman filter matrices and cycle with simulation. Run control step using fmicon. Computed each simulation trajectory and plotted of      all of them.
 
 * INIT.M: Parameters initialization.
 
