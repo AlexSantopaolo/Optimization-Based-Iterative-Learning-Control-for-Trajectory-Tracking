@@ -1,3 +1,6 @@
+<a href="Report_Project.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+
+
 Project Title:
 
 Optimization-Based Iterative Learning Controlfor Trajectory Tracking.
