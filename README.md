@@ -37,3 +37,4 @@ In this project an iterative learning controller is realized and tested on a Car
 * nonlinearconstraints: Constraints of cart position and cart velocity due to rail length and cart actuator. Used to run fmincon algorithm.
 
 > For further detail open the [ Project_Report](Report_Project.pdf)
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/KscG354lbqI)
