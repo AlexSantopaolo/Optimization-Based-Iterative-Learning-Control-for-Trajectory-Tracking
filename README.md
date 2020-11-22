@@ -1,4 +1,11 @@
 <h1>Optimization-Based Iterative Learning Control for Trajectory Tracking</h1>
+
+Developed by: S. Saif, A. Santopaolo (2020).
+
+Supervisor: prof. G. Oriolo, L. Lanari.
+
+Achievement: Underactuated robot exam.
+
 <h2>Project description:</h2>
 
 In this project an iterative learning controller is realized and tested on a Cart-Pole system. Starting from a feasible swing-up trajectory, at each trial, the uncertainties over the dynamics parameters of the model are estimated and incorporated in the controller formulation during the next iteration. Simulation implemented in Matlab.
