@@ -46,3 +46,7 @@ In this project an iterative learning controller is realized and tested on a Car
 > For further detail open the [ Project_Report](Report_Project.pdf)
 
 >Watch the [video](https://youtu.be/KscG354lbqI) with the results
+
+<h3> References </h3>
+Schöllig, A., & D'Andrea, R. (2009, August). Optimization-based iterative learning control for trajectory tracking. In 2009 European Control Conference (ECC) (pp. 1505-1510). IEEE.
+
